@@ -1,6 +1,6 @@
 {
   "name": "plugnplay",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "description": "Plugin system for reusable code in node.js",
   "main": "index.js",
   "repository": {
@@ -66,7 +66,7 @@
     "sinon": "^6.0.1"
   },
   "dependencies": {
-    "copy": "^0.3.1",
+    "@qxip/copy": "^0.3.3",
     "easy-factory": "^1.3.0",
     "flatted": "^3.0.5",
     "flow-copy-source": "^2.0.9",
