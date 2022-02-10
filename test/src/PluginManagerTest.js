@@ -100,7 +100,7 @@ module.exports = {
     manager._globExpression = sinon.stub().callsFake(() => 42);
     this.stubs.push(manager._globExpression);
     manager.discover().catch((error) => {
-      test.deepEqual(error.message, 'glob pattern string required');
+      test.deepEqual(error.message, 'invalid pattern');
       // Now force an error in the glob execution.
       const stub = sinon.stub().callsFake((p, cb) => cb('Err!'));
       requireSubvert.subvert('glob', stub);
