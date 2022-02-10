@@ -60,7 +60,8 @@
     "flow-bin": "^0.92.1",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
-    "nodeunit": "^0.11.3",
+    "nodeunit-esm": "^1.0.8",
+    "nodeunit": "npm:nodeunit-esm@^1.0.8",
     "prettier": "^2.4.1",
     "semantic-release": "^19.0.2",
     "sinon": "^6.0.1"
